@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style/reset.css" />
+		<link rel="stylesheet" href="./style/general.css" />
+		<title>E-Comers</title>
+	</head>
+	<body>
+		<nav>
+			<img src="./icons/O.png" alt="Ñu icons" class="logo" />
+			<a href="#" id="home">Home</a>
+			<a href="#" id="products">Products</a><a href="#" id="contacts">Contacts</a>
+			<div class="shoping_cart">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="26"
+					height="26"
+					style="fill: rgba(0, 0, 0, 1);"
+					class="shoping_cart-desplegar"
+				>
+					<path
+						d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"
+					></path>
+					<circle cx="10.5" cy="19.5" r="1.5"></circle>
+					<circle cx="17.5" cy="19.5" r="1.5"></circle>
+				</svg>
+				<div class="product-count"></div>
+			</div>
+			<aside>
+				<div class="purchased" id="purchased"></div>
+				<div class="total"></div>
+			</aside>
+		</nav>
+
+		<header>
+			<div class="header_container">
+				<img src="./img/nu.png" alt="img" />
+			</div>
+			<div class="slider_img">
+				<div class="slider_img-container">
+					<img src="./img/baner_seminarios.jpg" alt="imagen" /><img
+						src="./img/certificaciones.jpeg"
+						alt="imagen"
+					/><img src="./img/materialexclusivo.jpg" alt="" /><img
+						src="./img/coaching.jpeg"
+						alt="imagen"
+					/>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="main_header">
+				<h2>Cursos y servicios disponibles</h2>
+			</div>
+			<div class="main_products-list" id="productsList"></div>
+		</main>
+
+		<section class="contact">
+			<div class="contact-box">
+				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+					<path
+						d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"
+					></path>
+				</svg>
+				<p>Número celular</p>
+				<span>+54 11 3394-8755</span>
+			</div>
+			<div class="contact-box">
+				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+					<path
+						d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"
+					></path>
+				</svg>
+				<p>Correo Electrónico</p>
+				<span>escueladecoaching@gmail.com</span>
+			</div>
+			<div class="contact-box">
+				<img src="./icons/web.png" alt="icon" />
+				<p>Correo Electrónico</p>
+				<span>escueladecoaching@gmail.com</span>
+			</div>
+		</section>
+		<footer>
+			<p>© 2021 Ñu Escuela de Coaching Ontológico Profesional</p>
+		</footer>
+		<script src="./main.js" type="module"></script>
+	</body>
+</html>
